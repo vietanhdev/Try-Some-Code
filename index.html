@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Try some code</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- Css for codemirror -->
+    <link rel="stylesheet" href="codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="codemirror/theme/solarized.css">
+  </head>
+  <body>
+    <div class="tsc nav-main">
+        <h1 class="logo">TrySomeCode <sub>editor</sub></h1>
+    </div>
+    <nav class="tsc editor-menu">
+        <ul class="tab">
+            <li class="tablinks html active" onclick="changeActive('html');">HTML</li>
+            <li class="tablinks css" onclick="changeActive('css');">CSS</li>
+            <li class="tablinks js" onclick="changeActive('js');">JAVASCRIPT</li>
+        </ul>
+    </nav>
+    <div class="tsc editor-view">
+    </div>
+
+    <nav class="tsc result-menu">
+        <button type="button" class="btn" name="button" onclick="runCode()">Run Code</button>
+    </nav>
+    <div class="result-wrapper">
+        <iframe id="result" width="100%" height="500px"></iframe>
+    </div>
+
+  <!-- codemirror javascripts -->
+    <script src="codemirror/lib/codemirror.js"></script>
+    <script src="codemirror/mode/javascript/javascript.js"></script>
+    <script src="codemirror/mode/xml/xml.js"></script>
+    <script src="codemirror/mode/htmlmixed/htmlmixed.js"></script>
+    <script src="codemirror/mode/css/css.js"></script>
+    <script src="codemirror/addon/selection/active-line.js"></script>
+    <script src="codemirror/addon/edit/matchbrackets.js"></script>
+
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

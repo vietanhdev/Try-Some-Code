@@ -1,0 +1,54 @@
+.btn {
+  padding: 5px;
+  border: 1px solid #fff;
+  background: rgba(0, 0, 0, 0.15);
+  color: #fff;
+}
+.btn:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.nav-main {
+    background: #002b32;
+}
+.nav-main .logo {
+    margin: 5px;
+    line-height: 1;
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.15);
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+}
+nav.editor-menu, nav.result-menu {
+    background: #001c23;
+}
+
+/* Style the list */
+.editor-menu .tab {
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+.editor-menu ul.tab li {
+    cursor: pointer;
+    color: #d6d6d6;
+    float: left;
+    display: block;
+    padding: 10px;
+}
+.editor-menu ul.tab li.active {
+    background: rgba(0, 0, 0, 0.4);
+}
+.editor-menu ul.tab li:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.tsc.editor-view {
+    border-top: 2px solid #001c23;
+    border-bottom: 2px solid #001c23;
+}
+
+.result-menu {
+  padding: 5px 10px;
+}
