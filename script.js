@@ -91,7 +91,6 @@ function runCode() {
     let content = "<style>"+mode['css'].value+"</style>";
     content += mode['html'].value;
     content += "<script>"+mode['js'].value+"</script>";
-    console.log(content);
     var iframe = document.getElementById('result');
     iframe = (iframe.contentWindow) ? iframe.contentWindow : (iframe.contentDocument.document) ? iframe.contentDocument.document : iframe.contentDocument;
     iframe.document.open();
