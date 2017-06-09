@@ -32,13 +32,14 @@ nav.editor-menu, nav.result-menu {
 }
 .editor-menu ul.tab li {
     cursor: pointer;
-    color: #d6d6d6;
+    color: #ABC;
     float: left;
     display: block;
     padding: 10px;
 }
 .editor-menu ul.tab li.active {
     background: rgba(0, 0, 0, 0.4);
+    border-top: 2px solid #fff;
 }
 .editor-menu ul.tab li:hover {
     background: rgba(0, 0, 0, 0.3);
