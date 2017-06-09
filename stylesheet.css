@@ -12,12 +12,13 @@
     background: #002b32;
 }
 .nav-main .logo {
+    float: right;
     margin: 5px;
     line-height: 1;
     font-size: 24px;
     background: rgba(0, 0, 0, 0.15);
     color: #fff;
-    display: inline-block;
+    display: block;
     padding: 10px;
 }
 nav.editor-menu, nav.result-menu {
